@@ -1,6 +1,6 @@
-#  Foodstore prototype
+#Foodstore prototype
 
 XCode project to study navigation @State and @Binding
 commiting from Xcode
 
-![alt Demo](demo.gif)
+![alt Demo](demo.gif){height=50%}
