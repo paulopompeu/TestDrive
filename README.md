@@ -3,4 +3,4 @@
 XCode project to study navigation @State and @Binding
 commiting from Xcode
 
-![alt Demo](demo.gif){height=50%}
+![alt Demo](demo.gif){:width=50%}
