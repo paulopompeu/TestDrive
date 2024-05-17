@@ -34,7 +34,7 @@
 		6ED514D22BF1BAAD00F3F662 /* StoresDetailProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED514D12BF1BAAD00F3F662 /* StoresDetailProductItemView.swift */; };
 		6ED514D42BF1BCF500F3F662 /* ProductDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED514D32BF1BCF500F3F662 /* ProductDetailHeaderView.swift */; };
 		6ED514D62BF7E07700F3F662 /* ProductDetailQuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED514D52BF7E07700F3F662 /* ProductDetailQuantityView.swift */; };
-		6ED514D82BF7EF1F00F3F662 /* readme.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6ED514D72BF7EF1F00F3F662 /* readme.metal */; };
+		6ED514DC2BF7F25600F3F662 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6ED514DB2BF7F25600F3F662 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,8 @@
 		6ED514D12BF1BAAD00F3F662 /* StoresDetailProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresDetailProductItemView.swift; sourceTree = "<group>"; };
 		6ED514D32BF1BCF500F3F662 /* ProductDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailHeaderView.swift; sourceTree = "<group>"; };
 		6ED514D52BF7E07700F3F662 /* ProductDetailQuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailQuantityView.swift; sourceTree = "<group>"; };
-		6ED514D72BF7EF1F00F3F662 /* readme.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = readme.metal; sourceTree = "<group>"; };
+		6ED514D92BF7EFDD00F3F662 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6ED514DB2BF7F25600F3F662 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = demo.gif; path = ../../../Documents/demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +117,8 @@
 		6E99E1932BEC2642000A0704 = {
 			isa = PBXGroup;
 			children = (
-				6ED514D72BF7EF1F00F3F662 /* readme.metal */,
+				6ED514DA2BF7F22300F3F662 /* MarkdownResources */,
+				6ED514D92BF7EFDD00F3F662 /* README.md */,
 				6E99E19E2BEC2642000A0704 /* TestDrive */,
 				6E99E1AF2BEC2643000A0704 /* TestDriveTests */,
 				6E99E1B92BEC2643000A0704 /* TestDriveUITests */,
@@ -262,6 +264,14 @@
 			path = StoresDetailView;
 			sourceTree = "<group>";
 		};
+		6ED514DA2BF7F22300F3F662 /* MarkdownResources */ = {
+			isa = PBXGroup;
+			children = (
+				6ED514DB2BF7F25600F3F662 /* demo.gif */,
+			);
+			path = MarkdownResources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ED514BF2BEE881400F3F662 /* Assets.xcassets in Resources */,
+				6ED514DC2BF7F25600F3F662 /* demo.gif in Resources */,
 				6E99E1A72BEC2643000A0704 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +411,6 @@
 				6ED514BB2BED807A00F3F662 /* StoresItemView.swift in Sources */,
 				6ED514D42BF1BCF500F3F662 /* ProductDetailHeaderView.swift in Sources */,
 				6ED514C52BEEA22700F3F662 /* ProductType.swift in Sources */,
-				6ED514D82BF7EF1F00F3F662 /* readme.metal in Sources */,
 				6E99E1A22BEC2642000A0704 /* ContentView.swift in Sources */,
 				6ED514AD2BED61D500F3F662 /* DataSourceMock.swift in Sources */,
 				6ED514B02BED649400F3F662 /* OrderTypeView.swift in Sources */,
